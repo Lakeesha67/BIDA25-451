@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hope In Action Association| Donate</title>
+  <title>NGO Name | Donate</title>
   <style>
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
@@ -82,5 +82,57 @@
       font-weight: bold;
       color: #0d47a1;
     }
-    
- 
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Support Our Cause</h1>
+    <p>Your contribution helps us empower communities</p>
+  </header>
+
+  
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="programs.html">Programs</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="contact.html">Contact</a>
+    <a href="donate.html" class="button">Donate</a>
+
+
+
+  </nav>
+
+
+  <div class="container">
+    <section>
+      <h2>Why Your Donation Matters</h2>
+      <p>Donations are used to provide scholarships for children, training for women, and resources for families 
+         striving to overcome poverty. Every contribution brings hope and opportunity to those in need.</p>
+    </section>
+
+    <section class="donation-calculator">
+      <h2>Donation Calculator</h2>
+      <p>Enter an amount to see your impact:</p>
+      <input type="number" id="donationAmount" placeholder="Enter amount in BwP" oninput="calculateImpact()">
+      <p class="impact" id="impactText">Your donation can support 0 child(ren).</p>
+    </section>
+
+    <section>
+      <h2>Donation Options</h2>
+      <ul>
+        <li>P10 – Provide school supplies for one child</li>
+        <li>P25 – Fund a day of educational activities</li>
+        <li>P50 – Support a child's monthly nutrition needs</li>
+        <li>P100 – Enable a family to access clean water for a month</li>
+      </ul>
+    </section>
+  </div>
+  
+  <footer>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
